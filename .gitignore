@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Network monitoring data
+network_data.csv
+network_data_backup.csv
+network_data_before_cleanup.csv
+*.tmp
+
+# Local environment and secrets
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
